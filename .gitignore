@@ -1,0 +1,10 @@
+#Bakup files
+*~
+*.back
+
+#Ignore vagrant dir
+.vagrant/
+
+#Ignore logs
+
+**/*.log

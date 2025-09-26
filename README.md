@@ -1,6 +1,15 @@
-# Proyecto con Vagrant
+## Qué se obtiene
 
+- Una máquina web con Apache, PHP y Adminer listo para usar.  
+- Una máquina db con MySQL lista para conectarse desde la web.  
+- Todo configurado automáticamente usando Vagrant.
+
+
+
+
+# Proyecto con Vagrant
 Hemos creado 2 maquinas virtuales, una llamada **db** y otra **web** usando la box `ubuntu/xenial64`.
+
 
 ## maquina web
 - Se instaló:
@@ -20,4 +29,4 @@ cp /vagrant/Vendor/adminer-4.3.1-mysql-en.php /var/www/html/adminer.php
 
 ## notas
 - Adminer se abre en `http://192.168.56.10/adminer.php`  
-- La base de datos está en la maquina db  
+

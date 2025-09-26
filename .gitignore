@@ -2,9 +2,11 @@
 *~
 *.back
 
-#Ignore vagrant dir
+#Ignore vagrant directory
 .vagrant/
 
 #Ignore logs
 
 **/*.log
+
+#cambio de prueba

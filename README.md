@@ -1,26 +1,23 @@
-# Proyecto Vagrant: Web + DB
+# Proyecto con Vagrant
 
-En este proyecto se han creado **dos máquinas virtuales** utilizando **Vagrant** con la plantilla `ubuntu/xenial64`.
+Hemos creado 2 maquinas virtuales, una llamada **db** y otra **web** usando la box `ubuntu/xenial64`.
 
-## Estructura del Proyecto
+## maquina web
+- Se instalaron:
+  - apache2  
+  - php  
+  - libapache2-mod-php  
+  - php-mysql  
 
-- **Máquina `web`**
-  - Instalación de:
-    - `apache2`
-    - `php`
-    - `libapache2-mod-php`
-    - `php-mysql`
-  - Configuración de **Adminer**:
-    ```bash
-    cp /vagrant/Vendor/adminer-4.3.1-mysql-en.php /var/www/html/adminer.php
-    ```
+- Para el adminer, primero nos descargamos la version 4.3.1 y luego ejecutamos este comando:  
+cp /vagrant/Vendor/adminer-4.3.1-mysql-en.php /var/www/html/adminer.php
 
-- **Máquina `db`**
-  - Instalación de:
-    - `debconf-utils`
-    - `mysql-server`
 
-## Vagrantfile
+## maquina db
+- Se instalaron:
+- debconf-utils  
+- mysql-server  
 
-El archivo `Vagrantfile` está configurado para levantar ambas máquinas basadas en la box:
-
+## notas
+- Adminer se abre en `http://192.168.56.10/adminer.php`  
+- La base de datos está en la maquina db  

@@ -62,7 +62,7 @@ cd /etc/kibana/
 nano kibana.yml
 
 Hay que descomentar esta linea  
-<img width="245" height="47" alt="image" src="https://github.com/user-attachments/assets/bfeb5a43-4177-49ef-ac1f-6b5412e58a18" />
+<img width="471" height="120" alt="image" src="https://github.com/user-attachments/assets/81389527-57f4-4120-a82b-46ad8321d93a" />
 
 y poner esta otra línea de esta manera:
 <img width="245" height="47" alt="image" src="https://github.com/user-attachments/assets/0726b608-e6f7-4893-bb00-7ad66cdcda2e" />

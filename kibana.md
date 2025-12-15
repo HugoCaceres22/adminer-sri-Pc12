@@ -20,18 +20,6 @@ Para iniciar el servicio:
 
 sudo systemctl start elasticsearch.service
 
-Después, poner el comando:
-
-sudo nano elasticsearch.yml
-
-y cambiar esas variables de true a false.
-
-<img width="443" height="134" alt="image" src="https://github.com/user-attachments/assets/26710748-86b1-45f2-ac58-356bee39422e" />
-
-
-Ruta completa del archivo:
-
-sudo nano /etc/elasticsearch/elasticsearch.yml
 
 Después:
 
